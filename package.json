@@ -1,20 +1,4 @@
 {
-  "compilerOptions": {
-    "target": "es2020",
-    "lib": ["dom", "es2020"],
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "jsx": "react-jsx",
-    "resolveJsonModule": true,
-    "strict": false,
-    "skipLibCheck": true,
-    "noEmit": true,
-    "types": ["node"]
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
-}
-{
   "name": "esxpots-portal",
   "private": true,
   "version": "0.1.0",
