@@ -1,1 +1,3 @@
-export default function Page(){ return (<div>Merhaba esxpots!</div>) }
+export default function Page() {
+  return <div>Merhaba esxpots!</div>;
+}
