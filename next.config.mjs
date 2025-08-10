@@ -1,4 +1,12 @@
 // @ts-check
 /** @type {import('next').NextConfig} */
-const nextConfig = { experimental:{ serverActions:true } }
-export default nextConfig
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: '**.strapiapp.com' },
+      { protocol: 'https', hostname: '**.cloudinary.com' }
+    ]
+  }
+};
+
+export default nextConfig;
